@@ -1,0 +1,12 @@
+# DW Dreamweaver added files
+_notes
+_compareTemp
+configs/
+.idea/
+.vscode/
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+node_modules/
+package-lock.json
+.eslintrc.js
