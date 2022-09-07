@@ -73,8 +73,6 @@ export default class FormService {
 	
 	static submitParams()
 	{
-		//e.preventDefault();
-		
 		let params = new Params.Builder()
             .setFirstBackgroundColor(document.getElementById("firstBackgroundColor").value)
             .setSecondBackgroundColor(document.getElementById("secondBackgroundColor").value)
