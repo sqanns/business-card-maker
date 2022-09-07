@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+input,select{
+	background-color: #008080;
+	border-color: #010101;
+	border-width: 1px;
+	text-align: center;
+	cursor: pointer;
+	width:40%;
+}
+
+input:hover,select:hover{
+	background-color: rgba(0,255,255,0.11);
+	transition-duration: 0.4s;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+}
+
+input:invalid {
+  background-color: red;
+}
+
+button{
+	display: block;
+	width: 100px;
+	height: 35px;
+	padding: 7px;
+	background-color: #008080;
+	border-color: #010101;
+	border-width: 1px;
+	text-align: center;
+}
+
+
+button#LogExit{
+	width: 25px;
+	height: 25px;
+	color: white;
+	padding: 0px;
+}
+
+button#LogExit:hover,button#LogEnter:hover,button#ShowSavedCards:hover,button#DeleteAccount:hover,button#LogoutExit:hover,button#MenuLogExit:hover{
+	color: black;
+}
+
+button#LogEnter{
+	color: white;
+}
+
+button#ShowSavedCards{
+	width: 100px;
+	height: 80px;
+	color: white;
+}
+
+
+button#DeleteAccount{
+	color: white;
+}
+
+
+button#LogoutExit{
+	color: white;
+}
+
+
+button#saveInDBButton{
+	width: 125px;
+}
+
+button#MenuLogExit{
+	width: 25px;
+	height: 25px;
+	color: white;
+	padding: 0px;
+}
+
+button:hover,#login:hover{
+	background-color: rgba(0,255,255,0.11);
+	transition-duration: 0.4s;
+	cursor: pointer;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+}
+
+.formElement{
+	justify-content: space-between;
+}

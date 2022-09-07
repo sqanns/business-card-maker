@@ -1,0 +1,176 @@
+@charset "utf-8";
+@import url('fontFace.css');
+
+body {
+	background-color: #008080b8;
+	font-family: "Cormorant", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h1 {
+	text-align: center;
+	/*font-family: 'Diavlo';*/
+}
+
+#card_V {	
+	display: block;
+	width: 526px;
+	height: 300px;
+	-webkit-box-shadow: -3px 2px 12px 2px rgba(0,0,0,0.57);
+	-moz-box-shadow: -3px 2px 12px 2px rgba(0,10,0.57);
+	box-shadow: -3px 2px 12px 2px rgba(0,0,0,0.57);
+}
+
+div {
+	display: flex;
+	box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+	height: 90vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid #000000;
+	padding: 0;
+	overflow: hidden
+}
+
+div#content {
+	width: 66.66%
+}
+
+div#upload {
+	display: flex;
+	/* float: none; */
+	background-color: aquamarine;
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	justify-content: center;  
+	border: 2px dashed black;
+	z-index: -10;
+	visibility: hidden; /*temporary box are hidden */
+}
+
+div#download {
+	display: block;
+	width: 100px;
+	height: 35px;
+	padding: 7px;
+	text-align: center;
+}
+
+div#download:hover{
+	background-color: rgba(0,255,255,0.11);
+	transition-duration: 0.4s;
+	cursor: pointer;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+}
+
+div#canvasButton {
+	display: flex;
+	flex-direction: row;
+	height: 80px;
+	min-width: 526px;
+	border-width: 0px;
+	padding: 0;
+}
+
+div.formElement {
+	display: flex;
+	height: 4.16%;
+	min-height: 30px;
+	width: 100%;
+	flex-direction: row;
+}
+
+form {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration:none; 
+    cursor:pointer; 
+	padding: 0;
+}
+
+button {
+	display: block;
+	margin: 2%;
+}
+
+header{
+	display: flex;
+	background-color: #006C6C;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+img#hidden_img {
+	display: none;
+	z-index: -100;
+}
+
+div.logIn, div.formIcon {
+	display: flex;
+	width: 6em;
+	height: 60%;
+	margin: 0 5px 0 5px;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+div.logIn:hover {
+	color:cornflowerblue;
+}
+
+.familyMotionPicture{
+	font-family: 'MotionPicture';
+}
+
+.familyGreatVibes{
+	font-family: 'GreatVibes';
+}
+
+.familyFadliScript{
+	font-family: 'Fadli Script';
+}
+
+.familyDiavlo{
+	font-family: 'Diavlo';
+}
+
+.familyMergeLight{
+	font-family: 'MergeLight';
+}
+
+.noSelect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+						  supported by Chrome and Opera */
+}
+
+.popBoxShadow {
+	-webkit-box-shadow: 3px 4px 252px 52px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 252px 52px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 252px 52px rgba(0,0,0,0.75);
+}

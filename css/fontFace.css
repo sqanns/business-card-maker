@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Cormorant';
+	src: url('fonts/Cormorant/Cormorant-Medium.ttf') format('truetype'),
+		url('fonts/Cormorant/Cormorant-Medium.otf') format('opentype'),
+		url('fonts/Cormorant/Cormorant-Medium.woff') format('woff'),
+		url('fonts/Cormorant/Cormorant-Medium.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'MotionPicture';
+	src: url('fonts/MotionPicture.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'GreatVibes';
+	src: url('fonts/GreatVibes.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Fadli Script';
+	src: url('fonts/Fadli Script.otf')  format('opentype');
+}
+
+@font-face {
+	font-family: 'Diavlo';
+	src: url('fonts/Diavlo.otf')  format('opentype');
+}
+
+@font-face {
+	font-family: 'MergeLight';
+	src: url('fonts/MergeLight.otf')  format('opentype');
+}
